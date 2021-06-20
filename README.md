@@ -20,7 +20,9 @@ comando 5º-> apt-get install python-pip
 
 Em sequida só rodar o projeto com
 
-comando 6º -> python manage.py runserver
+comando 6º -> python manage.py migrate
+
+comando 7º -> python manage.py runserver
 
 E acessar a url: https://localhost:8000
 
