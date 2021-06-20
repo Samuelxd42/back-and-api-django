@@ -1,4 +1,4 @@
-# Projeto DJANGO Back end TO-DO-LIST
+# Projeto Django Back-End TO-DO-LIST
 
 Instalação do projeto
 
