@@ -26,7 +26,7 @@ comando 7º -> python manage.py runserver
 
 E acessar a url: https://localhost:8000
 
-# O front-End do projeto de encontra em https://github.com/Samuelxd42/front-end-angular/
+O front-End do projeto de encontra em https://github.com/Samuelxd42/front-end-angular/
 
 
 
