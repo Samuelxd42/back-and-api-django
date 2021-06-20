@@ -23,3 +23,9 @@ Em sequida só rodar o projeto com
 comando 6º -> python manage.py runserver
 
 E acessar a url: https://localhost:8000
+
+
+
+https://user-images.githubusercontent.com/44476076/122679877-005f3700-d1c3-11eb-8056-cf2d93504d60.mp4
+
+
