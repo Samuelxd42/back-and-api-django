@@ -12,7 +12,7 @@ comando 2º -> venv/Script/activate PARA WINDONWS
 
 comando 3º -> Em seguida baixar as depencias do Projeto em
 
-comando 4º -> pip install -r requirementstxt.
+comando 4º -> pip install -r requirements.txt
 
 caso não tenha o PIP instalado usar o sequinte comando
 
