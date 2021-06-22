@@ -1,4 +1,4 @@
-# Projeto DJANGO Back end TO-DO-LIST
+# Projeto Django Back-End TO-DO-LIST
 
 Instalação do projeto
 
@@ -18,15 +18,15 @@ caso não tenha o PIP instalado usar o sequinte comando
 
 comando 5º-> apt-get install python-pip
 
-Em sequida só rodar o projeto com
-
 comando 6º -> python manage.py migrate
+
+Em sequida só rodar o projeto com
 
 comando 7º -> python manage.py runserver
 
 E acessar a url: https://localhost:8000
 
-# O front-End do projeto de encontra em https://github.com/Samuelxd42/front-end-angular/
+O front-End do projeto de encontra em https://github.com/Samuelxd42/front-end-angular/
 
 
 
