@@ -17,4 +17,7 @@ urlpatterns = format_suffix_patterns([
     path('users/<int:pk>/',
          views.UserDetail.as_view(),
          name='user-detail'),
+    path('register/', 
+         views.RegisterAPI.as_view()),
+    path('login/', views.LoginAPIView.as_view())
 ])

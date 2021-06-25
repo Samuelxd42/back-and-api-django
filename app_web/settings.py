@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'core',
     'rest_framework',
     'corsheaders',
+    'rest_framework.authtoken'
 ]
 
 ROOT_URLCONF = 'app_web.urls'
