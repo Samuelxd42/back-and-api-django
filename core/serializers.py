@@ -5,7 +5,6 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 
 
-
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     posts = serializers.HyperlinkedRelatedField(many=True, view_name='post-detail',read_only=True)
     owner = serializers.ReadOnlyField(source='owner.username')
@@ -63,11 +62,12 @@ class LoginSerializers(serializers.Serializer):
             user = authenticate(request=self.context.get('request'),
                                 username=username, password=password)
             if not user:
-                msg = ('Unable to log in with provided credentials.')
+                msg = ('Incapaz de fazer login com as credenciais fornecidas')
                 raise serializers.ValidationError(msg, code='authorization')
         else:
-            msg = ('Must include "username" and "password".')
+            msg = ('Deve incluir "nome de usuário" e "senha".')
             raise serializers.ValidationError(msg, code='authorization')
 
         data['user'] = user
         return data
+
