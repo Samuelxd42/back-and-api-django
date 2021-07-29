@@ -1,4 +1,4 @@
-# Projeto Django Back-End TO-DO-LIST
+### Projeto Django Back-End TO-DO-LIST
 
 Instalação do projeto
 
@@ -12,7 +12,7 @@ comando 2º -> venv/Script/activate PARA WINDONWS
 
 comando 3º -> Em seguida baixar as depencias do Projeto em
 
-comando 4º -> pip install -r requirements.txt
+comando 4º -> pip install -r requirement.txt
 
 caso não tenha o PIP instalado usar o sequinte comando
 
@@ -26,7 +26,7 @@ comando 7º -> python manage.py runserver
 
 E acessar a url: https://localhost:8000
 
-O front-End do projeto de encontra em https://github.com/Samuelxd42/front-end-angular/
+O front-End do projeto se encontra em https://github.com/Samuelxd42/front-end-angular/
 
 
 
